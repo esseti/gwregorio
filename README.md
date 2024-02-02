@@ -1,8 +1,6 @@
 *NOTE: the code is not ready yet. But if you are interested in testing it out, drop me a message*
 
-#GWregorio
-
-## Description:
+# GWregorio
 
 GWregorio is a Django application designed to streamline the process of scheduling meetings by checking the availability of multiple individuals within a company. It seamlessly integrates with Google Workspace logins and calendars, providing a convenient solution for organizing meetings efficiently.
 
