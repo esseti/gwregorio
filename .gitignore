@@ -1,0 +1,127 @@
+# local setup
+src/*
+ste.env
+chino-local
+*.exe
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+settings/production_base.py
+
+.idea/
+src/static
+storage
+!src/chinocore/cryptograpy/storage/
+src/local.env
+src/ste.env
+src/test.env
+src/settings/ste.py
+src/settings/server.py
+src/dump_db_migrations.txt
+src/dump_db_test_data.txt
+dump_db_prod.txt
+src/dump_db_test.txt
+reindex_doc.py
+.gitignore.orig
+server.py
+src/repository/
+src/utils/
+nginx2/
+*.sql
+.env
+src/settings/.env.dev
+src/settings/.env.prod
+.env.dev
+/snippets/
+snippets/mem.py
+snippets/script_slack.py
+snippets/snippet_celery.py
+snippets/snippet_elastic.py
+/src/cover/
+Jenkinsfile0
+credentials
+*.diff
+.env.docker
+!.env.*.enc
+.env.gcp.prod
+.env.gcp.test
+.secret*
+oauth.txt
+cover
+k8/cloudsql.json
+k8/project-owner.json
+
+# backup files
+*~
+\#*
+builds
+/ansible/.psw
+
+# misc
+.noseids
+.env_private
+/.ste.env
+.env.f5
+*.lock
+settings.json
+/.prj_env
+.env_prj
+*.sqlite3
+*.db⏎
